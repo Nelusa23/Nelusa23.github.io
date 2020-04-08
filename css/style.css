@@ -1,0 +1,130 @@
+h1,h2,h3,h4,p,body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-family: 'Abril Fatface', cursive;
+}
+section {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color: #222222;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+
+/* HEADER */
+
+header {
+    background: url("../img/anakin.png") center no-repeat;
+    background-size: cover; /*cover nam zanecha puvodni pomer stran => lepsi i z hlediska responzivu*/
+    color: #222222;
+    height: 400px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+header .headerAnakin {
+    padding-top: 230px;
+    bottom: 50px;
+    left: 200px;
+    line-height: 55px;
+}
+header .Hi {
+    font-size: 35px;
+}
+header .Anakin {
+    font-size: 70px;
+}
+
+/* SECTION */
+
+section h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+section h3 {
+    line-height: 30px;
+    font-size: 22px;
+    font-weight: 500;
+}
+section h4 {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+}
+section li {
+    list-style-type: square;
+}
+.sectionText-first {
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.sectionText-second p {
+    font-size: 13px;
+    line-height: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.sectionText-third ul, .sectionText-fourth ul, .sectionText-fifth ul {
+    font-size: 13px;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
+.oddelovac {
+    background: black;
+    height: 3px;
+    width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sectionText-fifth h2 {
+    padding-top: 40px;
+}
+.quote-long, .quote-short {
+    max-width: 700px;
+    padding-bottom: 50px;
+    margin: 10px auto 50px auto;   
+    background: rgb(70, 69, 69);
+    color: white;
+    font-size: 40px;
+    font-family: 'Abril Fatface', cursive;
+    position: relative;
+}
+.quote-long p, .quote-short p {
+    line-height: 50px;
+    max-width: 600px;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+.quote-short {
+    padding-top: 50px;
+}
+.quote-long {
+    padding-top: 50px;
+}
+blockquote {
+    quotes: "“" "”" "‘" "’";
+    font-size: 100px;    
+    max-width: 100px;   
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: -20px;
+    left: 5px;
+}
+blockquote::before {
+    content: open-quote;
+}
+blockquote::after {
+    content: no-close-quote;
+}
+
